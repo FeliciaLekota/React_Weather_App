@@ -28,33 +28,6 @@ function App() {
         <WeatherCard data={weatherData} />
         <Forecast data={forecastData} />
       </div>
-
-      <div className="footer">
-        Open-source code on{" "}
-        <a
-          href="https://github.com/your-username/weather-app"
-          target="_blank"
-          rel="noreferrer"
-        >
-          GitHub
-        </a>{" "}
-        by{" "}
-        <a
-          href="https://github.com/your-username"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Felicia Lekota
-        </a>{" "}
-        from{" "}
-        <a
-          href="https://www.shecodes.io/students/your-profile"
-          target="_blank"
-          rel="noreferrer"
-        >
-          SheCodes
-        </a>
-      </div>
     </div>
   );
 }
